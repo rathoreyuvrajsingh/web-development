@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+          
+        }
+        .container{
+            height: 100vh;
+            border: 2px solid black;
+        }
+        .header{
+            height:20%;
+            display: flex;
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 45%, rgba(0,212,255,1) 100%);
+            justify-content: space-around;
+            align-items: center;
+
+        }
+      
+        .logo{
+            height: 90%;
+            width: 15%;
+            /* border: 2px solid green; */
+        }   
+        .logo img{
+            height: 100%;
+            width: 100%;
+        }
+  
+        .menu{
+            height: 50%;
+            width: 40%;
+            text-align: center;
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+            text-transform: capitalize;
+            letter-spacing: 1.5px;
+            /* border: 2px solid green; */
+        }
+        .button li{
+            display: inline-block;
+        }
+        .buttn li a{
+            color: white;
+            list-style: none;
+            text-decoration: none;
+            padding: 0px 17px;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .box{
+            height: 65%;
+            border: 2px dashed black;
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+
+        
+        .box1{height: 100%;
+            width: 15%;
+            border: 2px dashed red;
+
+
+         }
+        .box2{
+            width: 75%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+       .sidebar li a{
+            color: black;
+           list-style: none;
+           text-decoration: none;
+           padding: 0px 17px ;
+           font-size: 35px;
+           font-weight: 400;
+        
+       }
+      
+      
+
+        .footer{
+            height: 14.5%;
+            border: 2px dashed black;
+        }
+        .product{
+            height: 48%;
+            width: 27%;
+            border: 2px solid yellow;
+
+        }
+        img{
+            
+        }
+
+
+    </style>
+
+
+</head>
+<body>
+
+
+
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <img src="https://images.launchbox-app.com/1f8a2ba2-1db2-4c06-8ed8-4ed27ae8ec9b.png" alt="">
+            </div>
+            <div class="menu">
+                <h1>Bonkers Korner</h1>
+            </div>
+            <div class="button">
+                <ul class="buttn">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <nav></nav>
+
+        <div class="box">
+            <div class="box1" >
+                <ul class="sidebar">
+                    <li><a href="#">Men</a></li><br><br>
+                    <li><a href="#">Women</a></li><br><br>
+                    <li><a href="#">New Arrivals</a></li><br><br>
+                    <li><a href="#">Accessories</a></li><br><br>
+                    <li><a href="#">Shoes</a></li><br><br>
+                    <li><a href="#">Decor</a></li>
+
+                </ul>
+            </div>
+
+            <div class="box2" >
+                <div class="product"></div>
+                <div class="product"></div>
+                <div class="product"></div>
+                <div class="product"></div>
+                <div class="product"></div>
+                <div class="product"></div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+
+            
+
+
+        </div>
+            
+    
+</body>
+</html>
