@@ -89,6 +89,7 @@
 
         .project {
             height: 92vh;
+
             /* border: 2px dashed red; */
 
 
@@ -112,9 +113,17 @@
             margin: 20px;
             flex-wrap: wrap;
             justify-content: space-around;
+            
 
-
+            
         }
+
+
+        img:hover{
+    
+            transform: scale(1);
+        }
+            
 
         .row2 {
             display: flex;
@@ -128,12 +137,31 @@
         .proj {
             height: 250px;
             width: 350px;
+       
             /* border: 2px solid red; */
         }
 
+
+        .proj img{
+   
+              transition-property:  transform;
+              transition-duration: 5s;
+              cursor: pointer;
+        }
+
+        .proj img:hover{
+
+             transform: scale(1.2);
+             opacity: 1;
+
+            
+        }
+
+        
         .proj img {
             height: 100%;
             width: 100%;
+            opacity: 0.5;
         }
 
         .about {
